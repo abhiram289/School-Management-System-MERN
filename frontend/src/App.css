@@ -1,0 +1,201 @@
+/* ============================
+   GLOBAL RESET + FONTS
+============================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html, body {
+  background: none !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.title, .section-title,
+.profile-card h2, .notice-head h3,
+.exam-card h3, .students-header h1,
+.teachers-header h1, .attendance-header h1,
+.about-section h2, .dashboard-page h1,
+.motto h2, .hero-content h1 {
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  background: #f5f7fb ;
+  color: #333;
+}
+
+/* ============================
+   LAYOUT
+============================ */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  padding: 20px 24px;
+}
+
+.footer {
+  background: #f8f9fb;
+  color: #555;
+  font-size: 14px;
+  text-align: center;
+  padding: 24px 0;
+  border-top: 1px solid #e3e6ed;
+}
+
+/* ============================
+   NAVBAR
+============================ */
+.nav {
+  width: 100%;
+  background: #1c2742;
+  padding: 14px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.school-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.school-logo:hover {
+  transform: scale(1.05);
+}
+
+.nav-left h2 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.navlinks a {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+
+
+/* underline hover */
+.navlinks a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 0%;
+  background: white;
+  border-radius: 2px;
+}
+.navlinks a:hover::after {
+  width: 100%;
+}
+
+/* LOGOUT BUTTON */
+.logout-btn {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 600;
+  background: #ffffff10;
+  color: white;
+  padding: 6px 14px;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.logout-btn:hover {
+  background: white;
+  color: #1c2742;
+  transform: translateY(-2px);
+}
+
+/* ============================
+   FORM ELEMENTS + TABLES
+============================ */
+input, select, textarea {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background: #243050;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+/* ============================
+   COMPONENT STYLES
+============================ */
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.flex {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/* ============================
+   ANIMATIONS
+============================ */
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1.2s ease forwards;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

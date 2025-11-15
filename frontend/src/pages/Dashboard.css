@@ -1,0 +1,108 @@
+
+.dashboard-page {
+  background: #f5f7fb;
+  min-height: 80vh;
+  padding: 60px 40px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+/* Dashboard Title */
+.dashboard-page h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: #243050;
+  margin-bottom: 10px;
+}
+
+/* Subtitle under heading */
+.subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+/* Individual stat card */
+.stat-card {
+  background: #ffffff;
+  width: 240px;
+  height: 140px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  transition: transform 0.2s ease;
+}
+
+/* Hover grow effect */
+.stat-card:hover {
+  transform: scale(1.05);
+}
+
+/* Emoji icons for categories */
+.stat-icon {
+  font-size: 40px;
+}
+
+/* Stat number */
+.stat-card h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #243050;
+  font-family: "Playfair Display", serif;
+}
+
+/* Stat label */
+.stat-card p {
+  margin: 0;
+  color: #444;
+  font-weight: 500;
+}
+
+/* Icon colors (optional aesthetic) */
+.stat-card.students .stat-icon {
+  color: #2563eb; /* Blue */
+}
+
+.stat-card.teachers .stat-icon {
+  color: #10b981; /* Green */
+}
+
+.extra-section {
+  max-width: 700px;
+  margin: 0 auto;
+
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 14px;
+
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+/* Section title */
+.extra-section h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  color: #243050;
+  margin-bottom: 12px;
+}
+
+/* Section description text */
+.extra-section p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}

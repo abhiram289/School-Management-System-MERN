@@ -1,0 +1,145 @@
+.teachers-page {
+  background: #f5f7fb;
+  min-height: 80vh;
+  padding: 60px 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.teachers-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.teachers-header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: #243050;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 16px;
+}
+
+.teachers-form {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+input {
+  flex: 1 1 30%;
+  min-width: 200px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus {
+  border-color: #243050;
+  outline: none;
+  box-shadow: 0 0 4px rgba(30, 58, 138, 0.25);
+}
+
+.btn-group {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+button[type="submit"] {
+  background: #243050;
+  color: white;
+  transition: tranform backgroun 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background: #274bbf;
+  transform: scale(1.05);
+
+}
+
+.clear-btn {
+  background: #e5e7eb;
+  color: #333;
+}
+
+.clear-btn:hover {
+  background: #d1d5db;
+}
+
+.teachers-table {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.teachers-table h2 {
+  font-family: "Playfair Display", serif;
+  color: #243050;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+
+.delete-btn {
+  background: #dc2626;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  transition: background 0.2s ease;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+.empty {
+  color: #555;
+  font-style: italic;
+}

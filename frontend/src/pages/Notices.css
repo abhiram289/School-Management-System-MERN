@@ -1,0 +1,129 @@
+.notices-page {
+  font-family: 'Inter', sans-serif;
+  background: #f5f7fb;
+  padding: 50px 20px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.notices-card {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 700px;
+}
+
+.notices-card h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #243050;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #243050;
+  outline: none;
+  box-shadow: 0 0 4px rgba(30, 58, 138, 0.25);
+}
+
+button {
+  background: #243050;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #274bbf;
+}
+
+.notices-list {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 700px;
+}
+
+.notices-list h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #243050;
+  margin-bottom: 20px;
+}
+
+.notice-item {
+  border-left: 4px solid #243050;
+  padding: 12px 16px;
+  margin-bottom: 15px;
+  background: #f9fafc;
+  border-radius: 6px;
+  transition: transform 0.15s ease;
+}
+
+.notice-item:hover {
+  transform: translateY(-2px);
+}
+
+.notice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notice-header h4 {
+  margin: 0;
+  font-weight: 600;
+  color: #243050;
+}
+
+.date {
+  font-size: 13px;
+  color: #666;
+}
+
+.notice-item p {
+  margin: 8px 0 0;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.empty {
+  color: #555;
+  font-style: italic;
+}
+
