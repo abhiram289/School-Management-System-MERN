@@ -33,7 +33,7 @@ A complete **MERN-based School Management System** featuring student/teacher das
 ##  Folder Structure
 
 ```
-school-management-system/
+School-Management-System-MERN/
 │
 ├── backend/
 │   ├── config/
@@ -51,6 +51,9 @@ school-management-system/
 │   │   ├── App.js
 │   │   └── index.js
 │   └── package.json
+│
+├── images/
+│   └── screenshots used in README
 │
 ├── .gitignore
 └── README.md
@@ -148,8 +151,3 @@ This project is currently intended for **local development**.
 - UI screenshots are provided for demonstration
 
 
-## 🤝 Contributing
-Feel free to fork the repo and send pull requests.
-
-## 📄 License
-This project is open-source and free to use.
