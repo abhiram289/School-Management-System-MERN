@@ -59,7 +59,7 @@ School-Management-System-MERN/
 └── README.md
 ```
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### **1️⃣ Clone the repository**
 ```
@@ -121,7 +121,7 @@ Frontend runs at: **http://localhost:3000**
 - Protected routes  
 - Role-based access  
 
-## 🖼️ More Screenshots
+##  More Screenshots
 
 ### About Page  
 ![About](/images/about.png)
