@@ -61,8 +61,9 @@ school-management-system/
 
 ### **1️⃣ Clone the repository**
 ```
-git clone https://github.com/YOUR_USERNAME/school-management-system.git
-cd school-management-system
+git clone https://github.com/abhiram289/School-Management-System-MERN.git
+cd School-Management-System-MERN
+
 ```
 
 ## **2️⃣ Backend Setup**
@@ -120,8 +121,6 @@ Frontend runs at: **http://localhost:3000**
 
 ## 🖼️ More Screenshots
 
-### Login  
-![Login](/images/login.png)
 
 ### Dashboard  
 ![Dashboard](/images/dashboard.png)
@@ -144,6 +143,15 @@ MONGO_URL=
 PORT=5000
 JWT_SECRET=yourSecret (if using auth)
 ```
+
+## 🚧 Deployment Status
+
+This project is currently intended for **local development**.
+
+- Frontend and backend run locally
+- Backend is not deployed to a public server
+- UI screenshots are provided for demonstration
+
 
 ## 🤝 Contributing
 Feel free to fork the repo and send pull requests.
