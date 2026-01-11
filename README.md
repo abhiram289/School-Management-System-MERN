@@ -2,7 +2,6 @@
 A complete **MERN-based School Management System** featuring student/teacher dashboards, attendance tracking, notices, authentication, and more — built for smooth school administration.
 
 ##  Project Preview
-(Replace these with actual screenshot paths after uploading)
 
 | Login Page | Home Page |
 |----------|------------|
