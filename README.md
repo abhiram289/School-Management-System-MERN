@@ -4,9 +4,9 @@ A complete **MERN-based School Management System** featuring student/teacher das
 ##  Project Preview
 (Replace these with actual screenshot paths after uploading)
 
-| Home Page | Login Page |
+| Login Page | Home Page |
 |----------|------------|
-| ![Home Screenshot](/images/home.png) | ![Login Screenshot](/images/login.png) |
+| ![Login Screenshot](/images/login.png) | ![Home Screenshot](/images/home.png) |
 
 | Dashboard | Attendance |
 |----------|------------|
@@ -121,12 +121,8 @@ Frontend runs at: **http://localhost:3000**
 
 ## 🖼️ More Screenshots
 
-
-### Dashboard  
-![Dashboard](/images/dashboard.png)
-
-### Attendance Page  
-![Attendance](/images/attendance.png)
+### About Page  
+![About](/images/about.png)
 
 ### Notices  
 ![Notices](/images/notices.png)
